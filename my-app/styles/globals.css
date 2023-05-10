@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main_header {
+  @apply text-6xl text-center font-bold text-blue-800;
+}
