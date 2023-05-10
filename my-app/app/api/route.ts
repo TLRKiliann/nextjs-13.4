@@ -1,10 +1,11 @@
+/*
 import { NextApiRequest, NextApiResponse } from 'next';
 import { myDb } from 'external-lib-foo';
 
-/*
+
 type NextApiRequestmyDb = NextApiRequest & {
   db: (usersOrOtherName: string) => void;
-};*/
+};
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
@@ -18,3 +19,4 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   //res.end('ok');
 };
 export default myDb(handler);
+*/

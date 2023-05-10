@@ -3,8 +3,8 @@
 
 export default function Home() {
   return (
-    <main className="p-4 border y-auto">
-      <h1 className="main_header">Page title</h1>
+    <main className="border">
+      <h1 className="m-4 main_header orange_gradient">Page title</h1>
     </main>
   )
 }
